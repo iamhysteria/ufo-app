@@ -8,6 +8,26 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PAJSecondViewController : UIViewController
+
+@interface PAJSecondViewController : UIViewController<UITableViewDataSource, UITableViewDelegate>
+{
+    
+    NSMutableArray *listOfUrls;
+    NSMutableArray * listOfTitles;
+    NSMutableArray * listOfSubTitles;
+    
+    NSMutableArray *listOfUrlsEn;
+    NSMutableArray * listOfTitlesEn;
+    NSMutableArray * listOfSubTitlesEn;
+    
+    
+    
+    
+}
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
+
+@property(nonatomic, copy) NSArray *animationImages;
+
+
 
 @end
