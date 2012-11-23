@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2840" systemVersion="11G56" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="4">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2844" systemVersion="12C60" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="4">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1926"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1930"/>
     </dependencies>
     <scenes>
         <!--Navigation Controller - news-->
         <scene sceneID="4hv-Ws-D5h">
             <objects>
                 <navigationController title="news" definesPresentationContext="YES" id="8UP-s2-uQg" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="news" id="wjg-ag-udL"/>
+                    <tabBarItem key="tabBarItem" title="News" id="wjg-ag-udL"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="blackTranslucent" prompted="NO"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="blackTranslucent" id="87b-aY-Sec">
                         <rect key="frame" x="0.0" y="-44" width="0.0" height="44"/>
@@ -79,9 +79,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="news" id="IQe-LH-fJt">
-                        <barButtonItem key="backBarButtonItem" title="back" id="qif-Zx-spN"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="News" id="IQe-LH-fJt"/>
                     <connections>
                         <outlet property="tableView" destination="K43-ma-848" id="c1P-LP-Wlu"/>
                     </connections>
@@ -110,7 +108,7 @@
             </objects>
             <point key="canvasLocation" x="-916" y="520"/>
         </scene>
-        <!--Second View Controller - video-->
+        <!--Second View Controller - Video-->
         <scene sceneID="BIM-LY-wnY">
             <objects>
                 <viewController id="u3n-q6-U2s" customClass="PAJSecondViewController" sceneMemberID="viewController">
@@ -167,9 +165,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="video" id="yUm-Ou-Huj">
-                        <barButtonItem key="backBarButtonItem" title="back" id="ihO-o8-mkw"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Video" id="yUm-Ou-Huj"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="blackTranslucent" prompted="NO"/>
                     <connections>
                         <outlet property="tableView" destination="9dh-xj-5yA" id="PwF-VT-q1R"/>
@@ -183,7 +179,7 @@
         <scene sceneID="m5V-LA-Rqc">
             <objects>
                 <navigationController title="video" definesPresentationContext="YES" id="qdU-MF-caR" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="video" id="dgy-7P-lOo"/>
+                    <tabBarItem key="tabBarItem" title="Video" id="dgy-7P-lOo"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="blackTranslucent" prompted="NO"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="blackTranslucent" id="gQu-3Z-WpP">
                         <rect key="frame" x="0.0" y="-44" width="0.0" height="44"/>
@@ -248,9 +244,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Uyy-j3-DI1">
-                        <barButtonItem key="backBarButtonItem" title="back" id="CKC-dx-Se6"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" id="Uyy-j3-DI1"/>
                     <connections>
                         <outlet property="tableView" destination="KsA-Ka-51H" id="BNy-vh-MZ0"/>
                         <segue destination="lU8-RX-uAs" kind="push" identifier="hejweb" id="b46-Kn-EEl"/>
@@ -345,9 +339,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="njI-2s-4n9">
-                        <barButtonItem key="backBarButtonItem" title="back" id="Cc7-wW-df4"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" id="njI-2s-4n9"/>
                     <connections>
                         <outlet property="newsTable" destination="Cez-63-Uba" id="dsb-nh-XNe"/>
                         <segue destination="P2s-85-TPL" kind="push" identifier="hejweb2" id="IbV-C3-beF"/>
@@ -380,9 +372,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="wdp-a1-OMn">
-                        <barButtonItem key="backBarButtonItem" title="back" id="xtx-gI-QtA"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" id="wdp-a1-OMn"/>
                     <connections>
                         <outlet property="myWebview" destination="PcC-Qa-JrI" id="ehz-x7-tnp"/>
                     </connections>
@@ -528,9 +518,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="iMd-ZJ-prR">
-                        <barButtonItem key="backBarButtonItem" title="Tillbaka" id="PPq-I9-g10"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" id="iMd-ZJ-prR"/>
                     <connections>
                         <outlet property="newsTable" destination="oyD-y4-3gG" id="RX1-10-9zE"/>
                         <segue destination="UmZ-GT-FCq" kind="push" identifier="hejweb3" id="PhI-2F-GxL"/>
@@ -572,11 +560,11 @@
             </objects>
             <point key="canvasLocation" x="957" y="-751"/>
         </scene>
-        <!--Navigation Controller - podcast-->
+        <!--Navigation Controller - Podcast-->
         <scene sceneID="Gla-WG-Mkr">
             <objects>
                 <navigationController definesPresentationContext="YES" id="8c9-b0-SeE" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="podcast" id="4lZ-b9-y6l"/>
+                    <tabBarItem key="tabBarItem" title="Podcast" id="4lZ-b9-y6l"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="blackTranslucent" prompted="NO"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="blackTranslucent" id="Oh6-9j-gf2">
                         <rect key="frame" x="0.0" y="-44" width="0.0" height="44"/>
@@ -590,7 +578,7 @@
             </objects>
             <point key="canvasLocation" x="553" y="1495"/>
         </scene>
-        <!--Pod Rss New - podcast-->
+        <!--Pod Rss New - Podcast-->
         <scene sceneID="nwL-fk-d31">
             <objects>
                 <viewController id="nPX-8Q-uPH" customClass="PAJPodRssNew" sceneMemberID="viewController">
@@ -647,9 +635,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="podcast" id="uaf-pO-ecV">
-                        <barButtonItem key="backBarButtonItem" title="back" id="tMP-ZD-A60"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Podcast" id="uaf-pO-ecV"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
                         <outlet property="tableView" destination="c7H-cd-d8q" id="ePh-je-Mlb"/>
@@ -719,9 +705,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Jks-oG-F8I">
-                        <barButtonItem key="backBarButtonItem" title="back" id="ZHx-oS-C3e"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" id="Jks-oG-F8I"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
                         <outlet property="newsTable" destination="omP-6T-Gr1" id="gSk-ub-2FP"/>

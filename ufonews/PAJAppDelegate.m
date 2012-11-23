@@ -12,10 +12,34 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [self customAppearance];
+
     // Override point for customization after application launch.
     return YES;
 }
-							
+
+
+
+
+-(void)customAppearance
+{
+    
+    UIImage *customnav = [UIImage imageNamed:@"topBar.png"];
+    [[UINavigationBar appearance]setBackgroundImage:customnav forBarMetrics:UIBarMetricsDefault];
+    
+    UIImage *buttonBack30 = [[UIImage imageNamed:@"backBtn"]
+                             resizableImageWithCapInsets:UIEdgeInsetsMake(0, 13, 0, 5)];
+    
+    [[UIBarButtonItem appearance] setBackButtonBackgroundImage:buttonBack30
+                                                      forState:UIControlStateNormal barMetrics:UIBarMetricsDefault];
+    
+    
+    
+    
+}
+
+
+
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
